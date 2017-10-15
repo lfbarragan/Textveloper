@@ -70,7 +70,7 @@ module Textveloper
     def transactional_data
       {
         :cuenta_token => @account_token_number,
-        :subcuenta_token => @subaccount_token_number
+        :aplicacion_token => @subaccount_token_number
       }
     end
 
