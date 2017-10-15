@@ -25,7 +25,7 @@ module Textveloper
     def core_operation(number, message)
       data = {
         :cuenta_token => @account_token_number,
-        :subcuenta_token => @subaccount_token_number,
+        :aplicacion_token => @subaccount_token_number,
         :telefono => format_phone(number),
         :mensaje => message
       }
